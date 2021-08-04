@@ -4,6 +4,9 @@
     font-family: cursive;
     color: #fff;
 }
+html{
+    font-size: 62.5%;
+}
 .back{
     width: 100%;
     height: 100vh;
@@ -13,7 +16,7 @@
     z-index: -100;
 }
 .area{
-    font-size: 135px;
+    font-size: 13.5rem;
     font-weight: bold;
 }
 .one{
@@ -21,27 +24,45 @@
     color: #000000;
 }
 .name{
-    font-size: 200px;
+    font-size: 20rem;
     padding-right: 25%;
     text-align: right;
     color: #000000;
 }
 .det{
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-bottom: 150px;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    margin-bottom: 15rem;
     padding: 10%;
     color: #000000;
 }
 .imgarea{
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 150px;
+    margin-bottom: 15rem;
 }
 .img{
     width: 50%;
-    margin-top: 80px;
+    margin-top: 8rem;
 }
 img{
     width: 100%;
+}
+.right{
+    margin-left: 50%;
+}
+@media(max-width:900px){
+    html{
+        font-size: 55%
+    }
+}
+@media(max-width:603px){
+    html{
+        font-size: 40%
+    }
+}
+@media(max-width:427px){
+    html{
+        font-size: 25%
+    }
 }
