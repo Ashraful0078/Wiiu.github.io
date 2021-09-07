@@ -11,7 +11,7 @@ html{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background: url(Back.jpeg);
+    background: url(Back.jpg);
     background-size: cover;
     z-index: -100;
 }
